@@ -1,0 +1,23 @@
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header id="top">
+        <h2>システムアーキテクトプログラミング演習</h2>
+    </header>
+    <h2 class="result">検索結果: {name}</h2>
+    <div class="form1">
+        <form name="form1" action="/cgi-bin/book_list.py" method="POST">
+            <input type="text" name="param1" placeholder="蔵書検索 で本の名前または 著者名 を入力" />
+        </form>
+    </div>
+    <div>{tables}</div>
+</body>
+
+</html>

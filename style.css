@@ -1,0 +1,72 @@
+    body {
+        background-color: #efeff0;
+        text-align: center;
+        font-family: MS Mincho;
+    }
+    
+    header {
+        text-align: left;
+        padding: 0.2em;
+    }
+    
+    h1 {
+        padding: 1em 0.5em 0 0;
+        text-align: center;
+        font-size: 5em;
+        font-family: MS Mincho;
+    }
+    
+    .result {
+        text-align: left;
+        margin: 3em 6em;
+    }
+    
+    table {
+        margin: 5em auto;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 80%;
+    }
+    
+    table tr {
+        border-bottom: solid 1px #ccc;
+    }
+    
+    table th,
+    table td {
+        text-align: center;
+        width: 25%;
+        padding: 15px 0;
+    }
+    /*     
+    .search {
+        margin: 3em;
+    } */
+    
+    a {
+        color: #2c3e50;
+    }
+    
+    input {
+        height: 3rem;
+        width: 30rem;
+        border-radius: 1rem;
+        border: 1px solid white;
+        padding: 0 2rem;
+        font-size: 1.1rem;
+    }
+    
+    @media screen and (max-width: 720px) {
+        input {
+            width: 85%;
+        }
+        h1 {
+            padding: 2rem;
+        }
+        header {
+            padding: 0.5em 0;
+        }
+        .result {
+            margin: 2em 3em;
+        }
+    }
